@@ -17,13 +17,13 @@ public class PrintSuShu {
                     isSuShu = false;
                     break;
                 }
-                if (isSuShu) {
-                    count++;
-                    System.out.print(i + " ");
-                    // 换行控制
-                    if (count % 5 == 0) {
-                        System.out.println();
-                    }
+            }
+            if (isSuShu) {
+                count++;
+                System.out.print(i + " ");
+                // 换行控制
+                if (count % 5 == 0) {
+                    System.out.println();
                 }
             }
         }
