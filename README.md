@@ -10,6 +10,8 @@ while (iterator.hasNext()) {
             System.out.println(next);
         }
 ```
+* 在某个类中，可使用 Ctrl + F12 快速定位某个方法或者属性
+* Alt + Shift + Insert 可进行多行编辑
 
 #### 知识点小记
 * 全局变量(属性)可以不赋值，直接使用，因为有默认值
