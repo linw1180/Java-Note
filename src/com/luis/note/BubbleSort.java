@@ -17,7 +17,6 @@ public class BubbleSort {
          */
         int[] arr = {4, 1, 6, 2, 3, 7, 0};
         // 7 个数，需要进行 6 次排序
-        int temp;
         for (int i = 0; i < arr.length - 1; i++) {
             // 第 1 次排序：比较 6 次
             // 第 2 次排序：比较 5 次
@@ -25,7 +24,7 @@ public class BubbleSort {
             // 以此类推...
             for (int j = 0; j < arr.length - 1 - i; j++) {
                 if (arr[j] > arr[j + 1]) {
-                    temp = arr[j];
+                    int temp = arr[j];
                     arr[j] = arr[j + 1];
                     arr[j + 1] = temp;
                 }
