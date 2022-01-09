@@ -23,5 +23,6 @@ public class BinarySearch {
                 return;
             }
         }
+        System.out.println("========> 如果待查找元素在数组中不存在，则最后会导致 begin > end，终止循环");
     }
 }
