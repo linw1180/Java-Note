@@ -6,7 +6,7 @@ import java.util.Random;
  * @Author: Luis
  * @date: 2022/1/9 22:13
  * @description: 随机数练习
- * 要求：从 0-100 中生成 5 个不重复的随机数，并将其存放在数组中
+ * 要求：从 0-10 中生成 5 个不重复的随机数，并将其存放在数组中
  * tip: 注意培养方法的封装思想
  */
 public class RandomNum {
