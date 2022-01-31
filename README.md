@@ -1,3 +1,12 @@
+- [知识点](#知识点)
+   - [多线程](#多线程)
+   - [反射](#反射)
+   - [注解](#注解)
+   - [MySQL](#mysql)
+   - [JDBC](#jdbc)
+   - [CSS](#css)
+   - [JavaScript(js)](#javascriptjs)
+
 ### Java 小记
 #### 快捷操作
 * 鼠标放类上，快捷键 Ctrl + H 查看其继承关系
@@ -12,7 +21,7 @@ while (iterator.hasNext()) {
 ```
 * 在某个类中，可使用 Ctrl + F12 快速定位某个方法或者属性
 * Alt + Shift + Insert 可进行多行编辑
-* 选中一个类，用 Ctrl + Alt + U 可快捷查看其继承结构图 
+* 选中一个类，用 Ctrl + Alt + U 可快捷查看其继承结构图
 
 #### 知识点小记
 * 全局变量(属性)可以不赋值，直接使用，因为有默认值
@@ -40,6 +49,7 @@ while (iterator.hasNext()) {
 * 定时器
 * 实现线程的第三种方式：FutureTask 方式，实现 Callable 接口（JDK8 新特性）
 * 关于 Object 类中的 wait() 和 notify()，生产者和消费者模式
+
 ---
 
 ### 反射
@@ -56,6 +66,7 @@ while (iterator.hasNext()) {
 * 通过反射机制调用对象的构造方法创建对象
 * 通过反射获取指定类的父类以及实现的接口
 * 获取Class的三种方式
+
 ---
 
 ### 注解
@@ -77,6 +88,7 @@ while (iterator.hasNext()) {
    以及以上所列的每一种的数组形式。
 5. 使用时，如果某属性是一个数组，并且数组中只有一个元素，则 {} 可以省略
 6. 通过反射机制读取类上面的注解对象以及属性值
+
 ---
 
 ### MySQL
@@ -242,6 +254,7 @@ group by
 having
 	count(*) >= 5;
 ```
+
 ---
 
 ### JDBC
@@ -255,6 +268,7 @@ having
 * jdbc 中事务控制
 * 了解悲观锁/行级锁和乐观锁（了解行级锁的使用）
 * jdbc 工具类封装（获取连接和释放资源）
+
 ---
 
 ### CSS
@@ -314,6 +328,7 @@ https://www.bilibili.com/video/BV1ov411M7hP/?spm_id_from=autoNext
 * 纯CSS响应式选项卡：https://codepen.io/Fallupko/pen/ruLdg
 * CSS下列菜单：https://codepen.io/Moslim/pen/gmzvQj
 * 响应式CSS标签：https://codepen.io/imprakash/pen/epZvbQ
+
 ---
 
 ### JavaScript(js)
