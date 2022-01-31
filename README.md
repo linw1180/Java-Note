@@ -22,9 +22,7 @@ while (iterator.hasNext()) {
 
 # 知识点
 ### 多线程
-
 **核心点：线程安全**
-
 * 创建线程的两种方式
 * 线程生命周期
 * 获取、修改线程名
@@ -42,13 +40,10 @@ while (iterator.hasNext()) {
 * 定时器
 * 实现线程的第三种方式：FutureTask 方式，实现 Callable 接口（JDK8 新特性）
 * 关于 Object 类中的 wait() 和 notify()，生产者和消费者模式
-
 ---
 
 ### 反射
-
 **核心点：怎么通过反射获取修改类的属性以及调用方法**
-
 * 获取 Class 的三种方式【掌握】
 * 利用反射机制通过配置文件实例化对象（不创建流和获取绝对路径，直接以流的形式返回，进行 load(流)）
 * Class.forName(完整类名) 会导致类加载，实现只让静态代码块执行（jdbc 中会用到）
@@ -56,29 +51,24 @@ while (iterator.hasNext()) {
 * 使用资源绑定器代替 IO+Properties 获取属性配置文件
 
 反射机制必须掌握：Method > Field > Constructor
-
 * 通过反射机制调用对象的方法【必须掌握 must be !】
 * 通过反射机制获取和修改对象的属性
 * 通过反射机制调用对象的构造方法创建对象
 * 通过反射获取指定类的父类以及实现的接口
 * 获取Class的三种方式
-
 ---
 
 ### 注解
-
 * 官方的两个注解：@Deprecated （已过时的），@Override（监测是否是重写父类的方法）
 * 元注解：注解注解的注解（用在注解的上面）
 
 需掌握的四个注解：（两个官方注解，两个元注解）
-
 1. @Override 监测是否是重写父类的方法
 2. @Deprecated 已过时的；不建议使用的
 3. @Targer 元注解，用来标注”被标注的注解“可以出现的位置，如方法、类、属性上等...
 4. @Retention 元注解，用来标注”被标注的注解“最终保存的位置，如源文件、字节码文件中等...
 
 自定义注解：
-
 1. 自定义属性时，没赋默认值的话，使用的时候必须手动给属性进行赋值
 2. 赋默认值的属性，使用的时候可以不写
 3. 如果一个注解的属性名是value，并且只有一个属性的话，使用的时候，value可省略不写
@@ -87,13 +77,10 @@ while (iterator.hasNext()) {
    以及以上所列的每一种的数组形式。
 5. 使用时，如果某属性是一个数组，并且数组中只有一个元素，则 {} 可以省略
 6. 通过反射机制读取类上面的注解对象以及属性值
-
 ---
 
 ### MySQL
-
 ------------------ 操作mysql的命令 --------------------
-
 cmd命令行中查看mysql版本：
 mysql -V
 mysql --version
@@ -142,7 +129,6 @@ exit 或 Ctrl + c
 show create table 表名;
 
 ----------- SQL语句 ----------
-
 * 条件查询 between and
 * 条件查询 is null 和 is not null
 * and or
@@ -162,7 +148,6 @@ show create table 表名;
 * select、where、from 后嵌套子查询（from后接子查询用的最多）
 * union 数据拼接
 * 分页查询 limit mysql特有
-
 * desc asc 默认升序
 * count(*) 分组函数/多行处理函数
 * 分组函数（sum,count,max,min,avg）自动忽略null
@@ -181,19 +166,18 @@ show create table 表名;
 * 表的复制create as select、表的删除drop
 
 总结 DQL 语句执行顺序：
-
 ```mysql
-select      5
+select     5
 	xxx
 from       1
 	xxx
-where     2
+where      2
 	xxx
-group by  3
+group by   3
 	xxx
 having     4
 	xxx
-order by  6
+order by   6
 	xxx;
 ```
 
@@ -257,11 +241,9 @@ group by
 having
 	count(*) >= 5;
 ```
-
 ---
 
 ### JDBC
-
 * jdbc 本质理解：针对 msql 的一套接口实现类库，实现 java 连接数据库；需要手动添加进项目进行使用（mysql、oracle，sql server 都有自己的一套类库，可在各自的官网下载）
 * jdbc 编程六步【掌握】
 * 类加载方式注册驱动
@@ -272,13 +254,11 @@ having
 * jdbc 中事务控制
 * 了解悲观锁/行级锁和乐观锁（了解行级锁的使用）
 * jdbc 工具类封装（获取连接和释放资源）
-
 ---
 
 ### CSS
-
 换行：（单目符）
-<br>
+`<br>`
 
 保留格式：
 ```
@@ -310,7 +290,6 @@ having
 * 控制可输入的字符数maxlength
 
 html中引入css样式的三种方式：
-
 1. 内联定义
 2. 样式块
 3. 引入css文件
@@ -334,11 +313,9 @@ https://www.bilibili.com/video/BV1ov411M7hP/?spm_id_from=autoNext
 * 纯CSS响应式选项卡：https://codepen.io/Fallupko/pen/ruLdg
 * CSS下列菜单：https://codepen.io/Moslim/pen/gmzvQj
 * 响应式CSS标签：https://codepen.io/imprakash/pen/epZvbQ
-
 ---
 
 ### JavaScript(js)
-
 * html中嵌入js代码的三种方式
 * js函数定义的两种方式
 * js中的6种数据类型以及typeof运算符6种结果
