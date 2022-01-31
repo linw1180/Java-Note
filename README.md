@@ -7,6 +7,14 @@
    - [CSS](#css)
    - [JavaScript(js)](#javascriptjs)
 
+---
+
+> GitHub 中目录快捷更新方式：
+> 
+> 在 vscode 中使用下载的 Markdown All in One 插件。
+> 使用快捷键 ctrl+shift+P，输入 Markdown All in One: Create Table of Contents 并回车，
+> 即可创建出可在 GitHub 中显示的 md 格式目录，后续更新后复制即可。
+
 ### Java 小记
 #### 快捷操作
 * 鼠标放类上，快捷键 Ctrl + H 查看其继承关系
